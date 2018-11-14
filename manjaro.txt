@@ -1,0 +1,11 @@
+1.更换源
+sudo pacman-mirrors -b testing -c China
+2.更内核 重启
+3.尝试能否休眠
+4.更新语言包
+5.更新整个系统
+6.安装输入法
+7.安装yay使用aur
+
+sudo pacman-key -u    # 更新 pacman 的信任数据库
+sudo pacman-key --refresh-keys    # 从密匙服务器中更新指定的或所有的密匙。
